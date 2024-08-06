@@ -4,7 +4,7 @@ Submitted by: **Tripurashree Mysore Manjunatha**
 
 About this web app: **A Single Page Webapp to display favorite creators. Made using Supabase, ReactJS and JS**
 
-Time spent: **4** hours
+Time spent: **4.5** hours
 
 ## Required Features
 
