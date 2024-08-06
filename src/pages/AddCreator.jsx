@@ -17,27 +17,29 @@ const AddCreator = () =>{
     };
 
     return(
-        <form onSubmit = {handleSubmit}>
-            <label>
-                Name:
-            <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder = "Name" required/>
-            </label>
-            <label>
-                Website URL:
-            <input type="text" value={url} onChange={(e) => setUrl(e.target.value)} placeholder = "WebsiteURL" required/>
-            </label>
-            <label>
-                Description:
-                <input type="text" value={description} onChange={(e) => setDescription(e.target.value)} placeholder = "Description" required/>
-            </label>
-            <label>
-                Image URL:
-                <input type="text" value={imageURL} onChange={(e) => setImageURL(e.target.value)} placeholder = "imageURL" required/>
-            </label>
-            <button type="submit">Add Creator</button>
-        </form>
+        <div>
+            <h1>Add a New Creator</h1> 
+            <form onSubmit={handleSubmit}>
+                <label>
+                    Name:
+                <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Name" required/>
+                </label>
+                <label>
+                    Website URL:
+                <input type="text" value={url} onChange={(e) => setUrl(e.target.value)} placeholder="Website URL" required/>
+                </label>
+                <label>
+                    Description:
+                <input type="text" value={description} onChange={(e) => setDescription(e.target.value)} placeholder="Description" required/>
+                </label>
+                <label>
+                    Image URL:
+                <input type="text" value={imageURL} onChange={(e) => setImageURL(e.target.value)} placeholder="Image URL" required/>
+                </label>
+                <button className="add-creator-button" type="submit">Add Creator</button>
+            </form>
+        </div>
     );
-
 };
 
 export default AddCreator;

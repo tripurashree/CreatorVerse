@@ -1,7 +1,7 @@
 .card-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;
     justify-content: space-around;
     padding: 20px;
     width: 100%;
@@ -9,8 +9,8 @@
   }
   
   .creator-card {
-    background-color: #383584; /* Lighter pinkish-red background */
-    border-radius: 8px;
+    background-color: #9e5a7c;
+    border-radius: 12px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     flex-grow: 1;
@@ -20,8 +20,9 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 0 10px;
+    margin: 20px 20px;
     transition: transform 0.2s;
+    border-top-width: 20px;
   }
   
   .creator-card:hover {
@@ -30,12 +31,12 @@
   
   .creator-card h2 {
     margin: 0 0 8px;
-    font-size: 1.5em;
-    color: #333;
+    font-size: 2.5em;
+    color: #f4eeee;
   }
   
   .creator-card a {
-    color: #1e90ff;
+    color: #f4eeee;
     text-decoration: none;
     font-weight: bold;
   }
@@ -45,21 +46,25 @@
   }
   
   .creator-card p {
-    margin: 8px 0;
-    color: #555;
+    margin: 8px 20px;
+    color: #f4eeee;
+    font-size: 1.7em;
   }
   
+  /* Image styling */
   .creator-card img {
-    max-width: 90%;
-    height: auto;
-    border-radius: 8px;
-    margin-top: 8px;
+    width: 400px; /* Set a fixed width */
+    height: 400px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 10px; /* Adds rounded corners */
+    margin-top: 10px;
   }
+
   
   .creator-card .edit-link {
     margin-top: auto;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #f4eeee;
     color: white;
     border: none;
     border-radius: 4px;
@@ -71,3 +76,24 @@
     text-decoration: underline;
   }
   
+  /* Container for icon buttons */
+  .icon-buttons-container {
+    display: flex;
+    gap: 30px; /* Space between icons */
+    justify-content: center; /* Center the icons horizontally */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Icon button styling */
+  .icon-button {
+    font-size: 2.5em;
+    color: #f4eeee;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .icon-button:hover {
+    color: #f4eeee;
+  }
+

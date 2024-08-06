@@ -6,9 +6,16 @@ const Header = () =>{
         <header className="header">
             <h1>CreatorVerse</h1>
             <nav>
+                <p>
                 <Link to='/add' className="add-button">
                 Add Creator 
                 </Link>
+                </p>
+                <p>
+                <Link to='/' className="home-button">
+                Home
+                </Link>
+                </p>
             </nav>
         </header>
     );
