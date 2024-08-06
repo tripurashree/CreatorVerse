@@ -20,7 +20,7 @@ const ViewCreator = () => {
             <h2>{creator.name}</h2>
             {creator.imageURL && <img src={creator.imageURL} alt={creator.name} />}
             <p>{creator.description}</p>
-            <button href={creator.url} target="_blank" rel="noopener noreferrer">Visit Website</button>
+            <a href={creator.url} target="_blank" className="visit-website-button" rel="noopener noreferrer">Visit Website</a>
         </div>
     ) : (
         <p>Loading....</p>

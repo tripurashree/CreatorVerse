@@ -1,9 +1,7 @@
-/* ViewCreator.css */
-
 .view-creator {
-    max-width: 600px;
+    width: 50%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 30px;
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: #ce5692; 
@@ -20,8 +18,8 @@
   }
   
   .view-creator img {
-    width: 400px; /* Set a fixed width */
-    height: 400px; /* Set a fixed height */
+    width: 500px; /* Set a fixed width */
+    height: 500px; /* Set a fixed height */
     object-fit: cover; 
     border-radius: 8px;
     margin-bottom: 20px;
@@ -55,4 +53,17 @@
   .view-creator a:hover {
     text-decoration: underline;
   }
+  .visit-website-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f7f6f6;
+    color: #ae96a8;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+  }
   
+  .visit-website-button:hover {
+    background-color: #0056b3;
+  }
