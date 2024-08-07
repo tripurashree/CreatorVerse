@@ -1,10 +1,10 @@
-# WEB103 Prework - *Tripura's CreatorVerse*
+# WEB103 Prework - *Tripurashree's CreatorVerse*
 
 Submitted by: **Tripurashree Mysore Manjunatha**
 
 About this web app: **A Single Page Webapp to display favorite creators. Made using Supabase, ReactJS and JS**
 
-Time spent: **4** hours
+Time spent: **4.5** hours
 
 ## Required Features
 
@@ -32,7 +32,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='TVTsCreatorVerse-GoogleChrome2024-08-0514-24-31-ezgif.com-video-to-gif-converter.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+👉🏿<img src='public/creatorVerseGif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  ezgif.com
