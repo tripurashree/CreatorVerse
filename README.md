@@ -35,7 +35,7 @@ Here's a walkthrough of implemented required features:
 👉🏿<img src='public/creatorVerseGif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  ezgif.com
+GIF created with ...  gifmaker.com
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
